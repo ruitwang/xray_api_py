@@ -12,6 +12,6 @@ xray-core/app/proxyman/command/command.proto
 
 然后用命令生成 Python 代码：
 
-python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. command.proto
+python -m grpc_tools.protoc -I. --python_out=./gen --grpc_python_out=. command.proto
 
 生成的 command_pb2.py 和 command_pb2_grpc.py 就是你调用用的库。
