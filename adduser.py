@@ -13,7 +13,7 @@ from common.serial import typed_message_pb2
 # ============================================================
 
 def add_shadowsocks_user_via_grpc(email,password):
-    server_addr="127.0.0.1:8080"
+    server_addr="127.0.0.1:10085"
     inbound_tag="ss-inbound"
     cipher="AES-128-GCM"
 
